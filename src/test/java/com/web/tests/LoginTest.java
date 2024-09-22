@@ -1,7 +1,7 @@
 package com.web.tests;
 
 import com.web.actions.LoginPageAction;
-import com.web.connector.SQLConnector;
+import com.web.connectors.SQLConnector;
 import com.web.query.WMXQuery;
 import org.json.simple.JSONArray;
 import org.testng.annotations.Test;

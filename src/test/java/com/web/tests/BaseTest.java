@@ -1,7 +1,7 @@
 package com.web.tests;
 
-import com.web.connector.SQLConnector;
-import com.web.driver.DriverManager;
+import com.web.connectors.SQLConnector;
+import com.web.drivers.DriverManager;
 import com.web.executiondata.AppData;
 import com.web.executiondata.GlobalData;
 import lombok.extern.log4j.Log4j2;

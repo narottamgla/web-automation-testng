@@ -1,6 +1,6 @@
 package com.web.actions;
 
-import com.web.driver.DriverManager;
+import com.web.drivers.DriverManager;
 import com.web.executiondata.AppData;
 import com.web.locator.LoginPageLocator;
 import lombok.extern.log4j.Log4j2;

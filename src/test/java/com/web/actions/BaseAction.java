@@ -2,7 +2,7 @@ package com.web.actions;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.web.driver.DriverManager;
+import com.web.drivers.DriverManager;
 import com.web.listeners.ExtentListeners;
 import com.web.listeners.ExtentManager;
 import org.openqa.selenium.WebDriver;

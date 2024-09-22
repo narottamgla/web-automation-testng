@@ -1,4 +1,4 @@
-package com.web.connector;
+package com.web.connectors;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
