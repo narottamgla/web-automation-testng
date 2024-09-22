@@ -1,6 +1,6 @@
 package com.web.tests;
 
-import com.web.connector.SQL;
+import com.web.connector.SQLConnector;
 import com.web.driver.DriverManager;
 import com.web.executiondata.AppData;
 import com.web.executiondata.GlobalData;
@@ -45,7 +45,7 @@ public abstract class BaseTest {
         DriverManager.setDriver(GlobalData.IS_REMOTE, GlobalData.EXECUTION_BROWSER);
         log.info("Driver setup done");
         try {
-            SQL.getOrInitConnection("db");
+            SQLConnector.getOrInitConnection("db");
         } catch (Exception e) {
             log.info("Exception while getting connection");
             throw new RuntimeException(e);
