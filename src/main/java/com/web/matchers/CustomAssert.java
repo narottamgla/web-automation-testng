@@ -69,7 +69,10 @@ public class CustomAssert {
             return null;
         } else if (value.equalsIgnoreCase("true") || value.equalsIgnoreCase("false")) {
             return Boolean.parseBoolean(value);
-        } else if (Integer.valueOf(value) instanceof Integer) {
+        } else if (value.contains("STR:")){
+            return value.split(":")[1];
+        }
+        else if (Integer.valueOf(value) instanceof Integer) {
             return Integer.parseInt(value);
         } else if (Long.valueOf(value) instanceof Long) {
             return Long.parseLong(value);
